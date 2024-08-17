@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio Website</title>
+</head>
+<body>
+    <h1>Items</h1>
+    <ul>
+        {% for item in item %}
+            <li>{{ item.name }}: {{ item.description }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
